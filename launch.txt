@@ -1,0 +1,22 @@
+public class Launch{
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class launch {
+
+	public static void main(String[] args) throws InterruptedException{
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","chromedriver-win64/.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().windows().maximize();
+		driver.get("https://www.apple.com/in/");
+		Thread.sleep(4000);
+		//Scroll by
+		//Classname reference variable=new classname();
+		Actions actions=newActions(driver;)actions.scrollByAmount(0, 3000).build()
+				perform();
+		
+	}
+
+}
